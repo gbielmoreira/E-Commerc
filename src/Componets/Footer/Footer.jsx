@@ -5,40 +5,13 @@ import './Footer.css';
 function Footer() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{background: 'blueviolet'}}>
-        <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
-        </div>
-
-        <div>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
-          </a>
-        </div>
-      </section>
-
-      <section className='' >
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <MDBContainer className='text-center text-md-start mt-5' >
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
 
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" /> Company name
+                <MDBIcon icon="gem" className="me-3" /> E-Commerc
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -47,7 +20,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Produtos</h6>
 
               <p><a href='#!' className='text-reset'>Angular</a></p>
 
@@ -59,7 +32,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Outros links</h6>
 
               <p><a href='#!' className='text-reset'>Pricing</a></p>
 
@@ -71,7 +44,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Contato</h6>
 
               <p><MDBIcon icon="home" className="me-2" /> New York, NY 10012, US </p>
 
@@ -86,7 +59,8 @@ function Footer() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'gray' }}>
+
+      <div className='text-center p-4' id="copyright">
         © 2023 Copyright: <a className='text-reset fw-bold' href='https://mdbootstrap.com/'> E-Commerc.com</a>
       </div>
     </MDBFooter>

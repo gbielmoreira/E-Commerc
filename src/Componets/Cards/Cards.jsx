@@ -1,20 +1,23 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import './Cards.css'
 
-function GridExample() {
+function Grids() {
   return (
-    <div style={{padding: 120}}>
-      <Row xs={1} md={3} className="g-4" >
-        {Array.from({ length: 6 }).map((_, idx) => (
+    <div className="cards">
+      <Row xs={1} md={4} className='g-5'>
+        {Array.from({ length: 8 }).map((_, idx) => (
           <Col key={idx}>
-            <Card>
-              <Card.Img variant="top" src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png" />
-              <Card.Body>
-                <Card.Title>Nome Produto</Card.Title>
-                <Card.Text>R$: 100,00</Card.Text>
-              </Card.Body>
-            </Card>
+            <a href="/produto">
+              <Card className='card'>
+                <Card.Img className="img" src="https://www.myideability.com/wp-content/uploads/2016/07/Logo-PNG-150x150px.png" />
+                <Card.Body>
+                  <Card.Title>Nome Produto</Card.Title>
+                  <Card.Text>R$: 100,00</Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         ))}
       </Row>
@@ -22,4 +25,4 @@ function GridExample() {
   );
 }
 
-export default GridExample;
+export default Grids;

@@ -6,13 +6,13 @@ function Footer() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <MDBContainer className='text-center text-md-start mt-5' >
+        <MDBContainer className='text-center text-md-start mt-4' >
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
 
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" /> E-Commerc
-              </h6>
+              <h5 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon icon="gem" className="me-3" /> Store Sale
+              </h5>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit.
@@ -20,7 +20,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Produtos</h6>
+              <h5 className='text-uppercase fw-bold mb-4'>Produtos</h5>
 
               <p><a href='#!' className='text-reset'>Angular</a></p>
 
@@ -32,7 +32,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Outros links</h6>
+              <h5 className='text-uppercase fw-bold mb-4'>Outros links</h5>
 
               <p><a href='#!' className='text-reset'>Pricing</a></p>
 
@@ -44,7 +44,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contato</h6>
+              <h5 className='text-uppercase fw-bold mb-4'>Contato</h5>
 
               <p><MDBIcon icon="home" className="me-2" /> New York, NY 10012, US </p>
 
@@ -60,8 +60,8 @@ function Footer() {
       </section>
 
 
-      <div className='text-center p-4' id="copyright">
-        © 2023 Copyright: <a className='text-reset fw-bold' href='https://mdbootstrap.com/'> E-Commerc.com</a>
+      <div className='text-center p-2' id="copyright">
+        © 2023 Copyright: <a className='text-reset fw-bold' href='/'> Storesale.com</a>
       </div>
     </MDBFooter>
   );

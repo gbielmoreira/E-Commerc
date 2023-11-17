@@ -1,18 +1,15 @@
 import React from 'react';
 
 import Menu from '../../Componets/Navbar/Navbar'
-import Carousels from '../../Componets/Carousels/Carousels';
-import Grids from '../../Componets/Cards/Cards';
 import Footer from '../../Componets/Footer/Footer';
 
-function Home(){
+function Carinho(){
     return (
         <React.StrictMode>
             <Menu/>
-            <Carousels/>
-            <Grids/>
+            <h1 style={{textAlign:'center',margin:40}}>CARINHO</h1>
             <Footer/>
         </React.StrictMode>
     )
 }
-export default Home;
+export default Carinho;
